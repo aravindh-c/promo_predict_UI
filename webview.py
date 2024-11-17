@@ -30,9 +30,9 @@ inputs = {
   "recruitment_channel": recruitment_channel,
   "no_of_trainings": no_of_trainings,
   "age": age,
-  "previous_year_rating": experience,
-  "KPIs_met >80%": company_size,
-  "awards_won?": company_type,
+  "previous_year_rating": previous_year_rating,
+  "KPIs_met >80%": KPIs_met,
+  "awards_won?": awards_won,
   "avg_training_score": avg_training_score
 }
 
