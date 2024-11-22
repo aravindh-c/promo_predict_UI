@@ -20,6 +20,7 @@ previous_year_rating = st.selectbox("previous_year_rating", pd.unique(df['previo
 KPIs_met = st.number_input("KPIs_met >80%")
 awards_won = st.selectbox("awards_won", pd.unique(df['awards_won?']))
 avg_training_score = st.number_input("avg_training_score >80%")
+length_of_service = st.number_input("length_of_service")
 
 # convert the input values to dict
 inputs = {
@@ -33,7 +34,8 @@ inputs = {
   "previous_year_rating": previous_year_rating,
   "KPIs_met >80%": KPIs_met,
   "awards_won?": awards_won,
-  "avg_training_score": avg_training_score
+  "avg_training_score": avg_training_score,
+    "length_of_service":length_of_service
 }
 
 # on click
